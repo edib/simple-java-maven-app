@@ -11,8 +11,9 @@ public class App
     public App() {}
 
     public static void main(String[] args) {i
-        for (int i = 1; i <= 10; i++)
+        for (int i = 1; i <= 10; i++) {
             System.out.println(new App().getMessage());
+        }
     }
 
     private final String getMessage() {
